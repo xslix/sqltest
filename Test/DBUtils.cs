@@ -15,10 +15,11 @@ namespace Tutorial.SqlConn
             int port = 3306;
             string database = "test1";
             string username = "root";
-            string password = "asdasd";
+            string password = "g22143hp80";
 
             return DBMySQLUtils.GetDBConnection(host, port, database, username, password);
         }
 
     }
+
 }
